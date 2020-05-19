@@ -1,0 +1,143 @@
+.markets_wrapper .slider_item_content {
+    padding-top: 346px;
+}
+
+.open_for_you {
+    padding: 80px 0 58px 0;
+}
+
+.open_for_you_title {
+    font-size: 72px;
+    line-height: 97px;
+    padding: 0px 310px;
+    margin-bottom: 60px;
+}
+
+.open_for_you .why_forex_inner {
+    height: 660px;
+}
+
+.open_for_you .why_forex_inner_title {
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.instruments_wrapper {
+    background-color: #F8F8F8;
+    padding: 32px 0 70px 0;
+}
+
+.instruments_title {
+    font-size: 72px;
+    line-height: 97px;
+    margin-bottom: 10px;
+}
+
+.instruments_title span {
+    width: 50%;
+}
+
+.instruments_top_text {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.instruments_tables {
+    padding-top: 56px;
+}
+
+.instruments_tables .react-tabs__tab-panel {
+    max-height: 1040px;
+    overflow-y: scroll;
+}
+
+.react-tabs {
+    text-align: center;
+}
+
+.react-tabs__tab-list {
+    height: 80px;
+    display: inline-block;
+    background: #ECECEC;
+    border-radius: 50px;
+    border-bottom: none !important;
+    margin-bottom: 80px !important;
+}
+
+.react-tabs__tab {
+    min-width: 280px;
+    height: 80px;
+    font-size: 36px;
+    line-height: 48px;
+    color: #535353;
+    padding-top: 12px !important;
+}
+
+.react-tabs__tab--selected {
+    background: linear-gradient(81.53deg, #F16238 -6.51%, rgba(255, 255, 255, 0) 151.07%), #FE9432 !important;
+    border-radius: 50px !important;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF !important;
+    border: none !important;
+}
+
+.react-tabs__tab--selected:hover {
+    background-color: #F16238 !important;
+}
+
+.react-tabs__tab:focus {
+    box-shadow: none !important;
+    border-color: transparent;
+    outline: none;
+}
+
+.markets_table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.markets_table tbody tr {
+    height: 80px;
+}
+
+.markets_table tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.markets_table thead tr th {
+    font-size: 28px;
+    line-height: 37px;
+    color: #ADADAD;
+    padding-bottom: 18px;
+}
+
+.markets_table tbody tr td {
+    font-size: 32px;
+    line-height: 43px;
+}
+
+.markets_table tbody tr td:first-child {
+    padding-left: 64px;
+    text-align: left;
+}
+
+.markets_table tbody tr td:last-child {
+    padding-right: 64px;
+}
+
+.markets_table thead tr th:first-child {
+    padding-left: 64px;
+}
+
+.markets_table thead tr th:last-child {
+    padding-right: 64px;
+}
+
+.table_last {
+    height: 80px;
+    padding: 11px 0 0 64px;
+    background-color: #fff;
+    font-size: 32px;
+    line-height: 43px;
+}

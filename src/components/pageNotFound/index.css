@@ -1,0 +1,19 @@
+.error_code {
+    font-size: 128px;
+    line-height: 170px;
+    color: #ADADAD;
+    padding-top: 102px;
+}
+
+.page_not_found {
+    font-size: 72px;
+    line-height: 97px;
+    margin-bottom: 50px;
+}
+
+.error_text {
+    width: 60%;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 332px;
+}

@@ -1,0 +1,193 @@
+@media (max-width: 2350px) {
+    .markets_wrapper .slider_item_content {
+        padding-top: 173px;
+    }
+    .open_for_you {
+        padding: 40px 0 29px 0;
+    }
+    .open_for_you_title {
+        font-size: 36px;
+        line-height: 45px;
+        padding: 0px 155px;
+        margin-bottom: 30px;
+    }
+    .open_for_you .why_forex_inner {
+        height: 330px;
+    }
+    .open_for_you .why_forex_inner_title {
+        margin-bottom: 20px;
+    }
+    .instruments_wrapper {
+        padding: 16px 0 35px 0;
+    }
+    .instruments_title {
+        font-size: 36px;
+        line-height: 45px;
+        margin-bottom: 5px;
+    }
+    .instruments_top_text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .instruments_tables {
+        padding-top: 28px;
+    }
+    .instruments_tables .react-tabs__tab-panel {
+        max-height: 520px;
+        overflow-y: scroll;
+    }
+    .react-tabs__tab-list {
+        height: 40px;
+        border-radius: 25px;
+        margin-bottom: 40px !important;
+    }
+    .react-tabs__tab {
+        min-width: 140px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 24px;
+        padding-top: 6px !important;
+        bottom: 0px !important;
+    }
+    .react-tabs__tab--selected {
+        border-radius: 25px !important;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .markets_table tbody tr {
+        height: 40px;
+    }
+    .markets_table thead tr th {
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 9px;
+    }
+    .markets_table tbody tr td {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .markets_table tbody tr td:first-child {
+        padding-left: 32px;
+    }
+    .markets_table tbody tr td:last-child {
+        padding-right: 32px;
+    }
+    .markets_table thead tr th:first-child {
+        padding-left: 32px;
+    }
+    .markets_table thead tr th:last-child {
+        padding-right: 32px;
+    }
+    .table_last {
+        height: 40px;
+        padding: 5px 0 0 32px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .forex {
+        width: 72px;
+    }
+    .bitcoin {
+        width: 78px;
+    }
+    .percent {
+        width: 78px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .open_for_you .why_forex_inner {
+        height: 150px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .instruments_tables .main_content {
+        padding-right: 0;
+    }
+    .markets_table thead tr th {
+        min-width: 120px;
+    }
+    .markets_table tbody tr td {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .markets_table tbody tr {
+        height: 33px;
+    }
+    .react-tabs__tab-list {
+        width: 705px;
+        height: auto;
+        border-radius: 18px;
+        margin-bottom: 20px !important;
+    }
+    .react-tabs__tab {
+        min-width: 100px;
+        height: 30px;
+        font-size: 13px;
+        line-height: 18px;
+        padding-top: 4px !important;
+    }
+    .table_last {
+        height: 30px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .scroll_x {
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 800px) {
+    .react-tabs__tab-panel--selected {
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 768px) {
+    .markets_wrapper .slider_item_content {
+        padding-top: 58px;
+    }
+    .open_for_you {
+        padding-top: 11px;
+    }
+    .open_for_you_title {
+        font-size: 24px;
+        line-height: 32px;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .open_for_you .why_forex_inner {
+        height: 150px;
+    }
+    .forex {
+        width: 47.6px;
+    }
+    .bitcoin {
+        width: 52px;
+    }
+    .percent {
+        width: 52px;
+    }
+    .open_for_you .why_forex_inner_title {
+        margin-bottom: 12px;
+    }
+    .instruments_title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 5px;
+    }
+    .instruments_title span {
+        width: 100%;
+    }
+    .instruments_top_text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .markets_wrapper .slider_item_content {
+        padding: 0;
+    }
+}

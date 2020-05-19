@@ -1,0 +1,174 @@
+.contacts_wrapper {
+    padding: 78px 0 88px 0;
+}
+
+.contacts_title {
+    font-size: 72px;
+    line-height: 97px;
+    padding: 0 100px;
+    margin-bottom: 50px;
+}
+
+.order_call_wrapper {
+    margin-bottom: 20px;
+}
+
+.order_call {
+    height: 200px;
+    font-size: 52px;
+    line-height: 69px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(67.81deg, #CF3E2E -44.46%, rgba(255, 255, 255, 0) 190.03%), #FE9432;
+    border-radius: 100px;
+    padding-right: 40px;
+}
+
+.order_call:hover {
+    background-color: #F16238;
+}
+
+.call_icon {
+    vertical-align: middle;
+    margin-top: 3px;
+}
+
+.call_icon img {
+    width: 191px;
+}
+
+.call_icon+span {
+    vertical-align: inherit;
+}
+
+.call_order_text {
+    font-size: 36px;
+    line-height: 48px;
+    width: 30%;
+    margin: 0 auto 70px auto;
+}
+
+.contacts_items .why_forex_inner {
+    height: 380px;
+    padding-top: 62px;
+}
+
+.contacts_items .why_forex_inner_title {
+    height: auto;
+    margin-bottom: 76px;
+}
+
+.contacts_items .why_forex_inner_text {
+    font-size: 40px;
+    line-height: 53px;
+    color: #FE9432;
+}
+
+.ReactModal__Overlay {
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.ReactModal__Content {
+    width: 1068px;
+    background: #FFFFFF !important;
+    box-shadow: 0px 44px 130px rgba(0, 0, 0, 0.5), 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 80px !important;
+    padding: 54px 74px 70px 74px !important;
+    border: none !important;
+}
+
+.modal_title {
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 100px;
+}
+
+.contacts_input {
+    margin-bottom: 64px;
+    position: relative;
+}
+
+.contacts_error_msg {
+    position: absolute;
+    font-size: 13px;
+    color: red;
+}
+
+.contacts_input input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid #CECECE;
+    font-size: 32px;
+    line-height: 43px;
+    padding: 7px 0;
+    color: #686868;
+}
+
+.contacts_input input::-webkit-input-placeholder {
+    color: #CECECE;
+}
+
+.contacts_input input:-ms-input-placeholder {
+    color: #CECECE;
+}
+
+.contacts_input input::placeholder {
+    color: #CECECE;
+}
+
+.send_wrapper {
+    padding-top: 44px;
+}
+
+.send {
+    min-width: 280px;
+    height: 80px;
+    background: linear-gradient(75.03deg, #CF3E2E -44.46%, rgba(255, 255, 255, 0) 190.03%), #FE9432;
+    border-radius: 50px;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.send:hover {
+    background-color: #F16238;
+}
+
+.rc-time-picker {
+    width: 100%;
+}
+
+.rc-time-picker-clear {
+    display: none;
+}
+
+.contacts_input_time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_input_time_inner {
+    width: 45%;
+}
+
+.contacts_input .Dropdown-root {
+    width: 100%;
+    border-bottom: 2px solid #CECECE;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 3.5px 0;
+    margin: -6px 0 9px 0;
+}
+
+.contacts_input .Dropdown-control {
+    width: 100%;
+}
+
+.contacts_input .Dropdown-placeholder {
+    width: calc(100% - 22px);
+}

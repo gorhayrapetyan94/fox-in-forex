@@ -1,0 +1,210 @@
+@media (max-width: 2350px) {
+    header {
+        padding: 10px 0 9px 0;
+    }
+    body {
+        padding-top: 100px;
+    }
+    .main_content {
+        width: 1160px;
+    }
+    .logo {
+        width: 265px;
+    }
+    .nav_links {
+        padding-top: 27px;
+    }
+    .nav_link {
+        font-size: 16px;
+        line-height: 21px;
+        margin-right: 40px;
+    }
+    .header_right {
+        padding-top: 18px;
+    }
+    .Dropdown-control {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .arrow_closed {
+        width: 12px;
+        height: 7px;
+        background-size: contain;
+    }
+    .arrow_opened {
+        width: 12px;
+        height: 7px;
+        background-size: contain;
+    }
+    .header_btn {
+        min-width: 140px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .Dropdown-root {
+        width: 109px;
+    }
+    .reg_btn {
+        margin-left: 14px;
+    }
+    .Dropdown-menu {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        padding-top: 62px;
+    }
+    .main_content {
+        width: 100%;
+        padding: 0 20px;
+    }
+    header {
+        padding: 9px 0 8px 0;
+    }
+    .logo {
+        width: initial;
+        height: 41px;
+    }
+    .nav_links, .header_right {
+        display: none;
+    }
+    .mobile_menu, .mobile_menu .nav_links, .mobile_menu .header_right {
+        display: block;
+    }
+    .mobile_menu {
+        position: fixed;
+        top: 62px;
+        right: 0;
+        background: #FFFFFF;
+        box-shadow: 0px 22px 65px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.05);
+        border-radius: 0 0 0 20px;
+        padding: 20px;
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    .mobile_menu_opened {
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+    .cmn-toggle-switch {
+        display: block !important;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        width: 28px;
+        height: 21px;
+        font-size: 0;
+        text-indent: -9999px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        box-shadow: none;
+        border-radius: none;
+        border: none;
+        cursor: pointer;
+        -webkit-transition: background 0.3s;
+        transition: background 0.3s;
+        margin-top: 11px;
+        background: none;
+    }
+    .cmn-toggle-switch:focus {
+        outline: none;
+    }
+    .cmn-toggle-switch span {
+        display: block;
+        position: absolute;
+        top: 9px;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: #969696;
+        border-radius: 2px;
+    }
+    .cmn-toggle-switch span::before, .cmn-toggle-switch span::after {
+        position: absolute;
+        display: block;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: #969696;
+        border-radius: 2px;
+        content: "";
+    }
+    .cmn-toggle-switch span::before {
+        top: -9px;
+    }
+    .cmn-toggle-switch span::after {
+        bottom: -9px;
+    }
+    .cmn-toggle-switch__htx span {
+        -webkit-transition: background 0 0.3s;
+        transition: background 0 0.3s;
+    }
+    .cmn-toggle-switch__htx span::before, .cmn-toggle-switch__htx span::after {
+        -webkit-transition-duration: 0.3s, 0.3s;
+        transition-duration: 0.3s, 0.3s;
+        -webkit-transition-delay: 0.3s, 0;
+        transition-delay: 0.3s, 0;
+    }
+    .cmn-toggle-switch__htx span::before {
+        -webkit-transition-property: top, -webkit-transform;
+        transition-property: top, transform;
+    }
+    .cmn-toggle-switch__htx span::after {
+        -webkit-transition-property: bottom, -webkit-transform;
+        transition-property: bottom, transform;
+    }
+    .cmn-toggle-switch__htx.active span {
+        background: none;
+    }
+    .cmn-toggle-switch__htx.active span::before {
+        top: 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .cmn-toggle-switch__htx.active span::after {
+        bottom: 0;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    .cmn-toggle-switch__htx.active span::before, .cmn-toggle-switch__htx.active span::after {
+        -webkit-transition-delay: 0, 0.3s;
+        transition-delay: 0, 0.3s;
+    }
+    .mobile_menu .nav_links {
+        padding-top: 0;
+    }
+    .nav_link {
+        display: block;
+        margin: 0 0 10px 0;
+        text-align: right;
+    }
+    .nav_link_active:after {
+        bottom: -8px;
+    }
+    .dropdown, .header_btn {
+        display: block;
+    }
+    .header_btn {
+        margin: 0 0 15px 0;
+    } 
+    .dropdown {
+        text-align: right;
+    }
+    .Dropdown-menu {
+        text-align: left;
+    } 
+}

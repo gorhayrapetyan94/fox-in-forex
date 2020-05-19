@@ -1,0 +1,747 @@
+@media (max-width: 2350px) {
+    .slider_item {
+        height: 670px;
+    }
+    .slider_item_content {
+        padding-top: 213px;
+    }
+    .slider_item_title {
+        font-size: 36px;
+        line-height: 49px;
+        margin-bottom: 15px;
+    }
+    .slider_item_text {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 37px;
+    }
+    .start_trading {
+        min-width: 240px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .slick-prev, .slick-next {
+        width: 40px;
+        height: 40px;
+        background-size: 27%;
+        bottom: 17px;
+    }
+    .slick-prev:before, .slick-next:before {
+        width: 40px;
+        height: 40px;
+        border: 2px solid #FFFFFF;
+    }
+    .slick-next:hover, .slick-prev:hover, .slick-next:focus, .slick-prev:focus {
+        background-size: 27%;
+    }
+    .slick-dots {
+        bottom: 50px;
+    }
+    .slick-dots li {
+        width: 16px;
+        height: 16px;
+        margin: 0 10px;
+    }
+    .slick-dots li button {
+        width: 16px;
+        height: 16px;
+    }
+    .slick-dots li button:before {
+        width: 16px;
+        height: 16px;
+        border: 2px solid #FFFFFF;
+    }
+    .slick-next {
+        right: calc(50% - 122px);
+    }
+    .slick-prev {
+        left: calc(50% - 122px);
+    }
+    .why_forex {
+        padding-top: 40px;
+    }
+    .why_forex_title {
+        font-size: 36px;
+        line-height: 49px;
+        margin-bottom: 39px;
+    }
+    .why_forex_item {
+        margin-right: 40px;
+    }
+    .why_forex_inner {
+        width: 360px;
+        height: 360px;
+        margin-bottom: 40px;
+        box-shadow: 0px 22px 65px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.05);
+        border-radius: 40px;
+        padding: 0 30px 0 30px;
+    }
+    .why_forex_icon {
+        width: 100%;
+        height: 132px;
+    }
+    .syun {
+        width: 80px;
+    }
+    .heraditak {
+        width: 82px;
+    }
+    .gavat {
+        width: 65px;
+    }
+    .xoz {
+        width: 72px;
+    }
+    .settings {
+        width: 76px;
+    }
+    .raket {
+        width: 108px;
+    }
+    .why_forex_inner_title {
+        height: 95px;
+        font-size: 18px;
+        line-height: 24px;
+        padding: 0 15px;
+    }
+    .why_forex_inner_text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .awards_wrapper {
+        margin-top: 31px;
+        padding: 16px 0 27px 0;
+    }
+    .awards_title {
+        font-size: 36px;
+        line-height: 49px;
+        margin-bottom: 42px;
+    }
+    .awards_items {
+        margin-bottom: 41px;
+    }
+    .award_item_inner {
+        width: 150px;
+        height: 150px;
+        box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.06), -8px -8px 15px #FFFFFF;
+        font-size: 36px;
+        line-height: 49px;
+        padding-top: 50px;
+        margin-bottom: 16px;
+    }
+    .awards_desc_text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .learn_more {
+        min-width: 140px;
+        height: 40px;
+        border: 2px solid #B7B7B7;
+        font-size: 16px;
+        line-height: 21px;
+        padding-top: 5px;
+    }
+    .learn_more:hover {
+        border: 2px solid #FE9432;
+    }
+    .benefits_wrapper {
+        padding: 31px 0 111px 0;
+    }
+    .benefits_title {
+        font-size: 36px;
+        line-height: 49px;
+        margin-bottom: 15px;
+    }
+    .benefits_left {
+        width: 549px;
+        margin-right: 8px;
+        padding: 110px 0 45px 37px;
+        background-size: contain;
+    }
+    .comp_block {
+        width: 512px;
+        height: 306px;
+        padding: 14px 58px 44px 60px;
+    }
+    .benefits_right {
+        width: 610px;
+        margin-left: 8px;
+        padding-top: 18px;
+    }
+    .benefit_item {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+        border-radius: 40px;
+        padding: 15px 33px 25px 31px;
+        margin-bottom: 14px;
+    }
+    .benefit_title {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .benefit_text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .steps_wrapper {
+        padding: 16px 0 57px 0;
+    }
+    .steps_title {
+        font-size: 36px;
+        line-height: 45px;
+        margin-bottom: 42px;
+    }
+    .steps_item {
+        width: 234px;
+        margin: 0 50px;
+    }
+    .steps_icon {
+        width: 150px;
+        height: 150px;
+        border: 6px solid #FE9432;
+        padding-top: 35px;
+        margin-bottom: 19px;
+    }
+    .registration {
+        width: 61px;
+    }
+    .deposit {
+        width: 51px;
+    }
+    .deal {
+        width: 74px;
+    }
+    .steps_arrow_icon {
+        width: 137px;
+    }
+    .steps_subtitle {
+        min-height: 64px;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 8px;
+    }
+    .steps_text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .news_wrapper {
+        padding: 34px 0 0 0;
+    }
+    .news_title {
+        font-size: 36px;
+        line-height: 49px;
+        margin-bottom: 34px;
+    }
+    .news_wrapper .slick-dots li.slick-active button:before {
+        border: 2px solid #fff;
+    }
+    .news_wrapper .slick-list {
+        height: 560px;
+    }
+    .news_slider_item {
+        width: 360px;
+        height: 460px;
+        box-shadow: 0px 9px 14px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.05);
+        border-radius: 40px;
+        margin-left: 15px;
+    }
+    .news_item_top {
+        height: 210px;
+        border-radius: 40px 40px 0px 0px;
+    }
+    .news_slider_content {
+        padding: 23px 30px 0 30px;
+    }
+    .news_slider_title {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+    .news_slider_text {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 23px;
+    }
+    .news_slider_info {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .news_read_wrapper {
+        right: 30px;
+        bottom: 23px;
+    }
+    .news_read_link {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .news_wrapper .slick-prev:hover:before, .news_wrapper .slick-prev:focus:before, .news_wrapper .slick-next:hover:before, .news_wrapper .slick-next:focus:before {
+        border: 2px solid #FFFFFF;
+    }
+    .news_wrapper .slick-prev:before, .slick-next:before {
+        border: 2px solid #FFFFFF;
+    }
+    .info_wrapper .slick-list {
+        padding: 0 0 80px 0;
+    }
+    .info_title {
+        font-size: 36px;
+        line-height: 49px;
+        margin-bottom: 27px;
+    }
+    .info_item {
+        box-shadow: 0px 22px 65px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.05);
+        border-radius: 40px;
+        margin: 0 12px;
+    }
+    .info_item_left {
+        width: 290px;
+        height: 520px;
+        margin-top: 40px;
+        padding: 36px 30px 0 30px;
+    }
+    .info_item_middle {
+        width: 330px;
+        height: 600px;
+        padding: 31px 50px 0 50px;
+    }
+    .info_item_right {
+        width: 290px;
+        height: 520px;
+        margin-top: 40px;
+        padding: 36px 30px 0 30px;
+    }
+    .info_item_left_title {
+        font-size: 48px;
+        line-height: 65px;
+        margin-bottom: 24px;
+    }
+    .info_item_left_subtitle {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 7px;
+    }
+    .info_item .platform_list_item {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .info_item .platform_list_item::before {
+        top: 5px;
+    }
+    .info_item_button {
+        bottom: 20px;
+    }
+    .info_button {
+        min-width: 140px;
+        height: 40px;
+        background: linear-gradient(75.03deg, #CF3E2E -44.46%, rgba(255, 255, 255, 0) 190.03%), #FE9432;
+        border-radius: 25px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .info_item_middle_title {
+        font-size: 64px;
+        line-height: 86px;
+        margin-bottom: 53px;
+    }
+    .info_item_middle .info_item_button {
+        bottom: 40px;
+    }
+    .info_item_right_title {
+        font-size: 48px;
+        line-height: 65px;
+        margin-bottom: 24px;
+    }
+    .news_wrapper .slick-next {
+        right: calc(50% - 215px);
+    }
+    .news_wrapper .slick-prev {
+        left: calc(50% - 215px);
+    }
+}
+
+@media (max-width: 1200px) {
+    .why_forex {
+        padding-top: 11px;
+    }
+    .why_forex_title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 13px;
+    }
+    .why_forex_item {
+        display: block;
+        margin-right: 0;
+    }
+    .why_forex_inner {
+        width: 100%;
+        height: 170px;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .syun {
+        width: 51.5px;
+    }
+    .heraditak {
+        width: 51px;
+    }
+    .gavat {
+        width: 50px;
+    }
+    .xoz {
+        width: 50.4px;
+    }
+    .settings {
+        width: 54px;
+    }
+    .raket {
+        width: 77px;
+    }
+    .why_forex_icon {
+        width: 107px;
+        height: 100%;
+        text-align: right;
+        padding-right: 17px;
+        float: left;
+    }
+    .why_forex_mobile {
+        text-align: left;
+        display: table;
+        height: 100%;
+    }
+    .why_forex_mobile_inner {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .why_forex_inner_title {
+        height: auto;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 0 30px 0 0;
+        margin-bottom: 12px;
+    }
+    .why_forex_inner_text {
+        font-size: 12px;
+        line-height: 16px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .awards_wrapper {
+        margin-top: 51px;
+        padding: 7px 0 25px 0;
+    }
+    .awards_items {
+        display: none;
+    }
+    .awards_items_mobile {
+        display: block;
+    }
+    .awards_item_mobile {
+        display: flex;
+        justify-content: space-around;
+    }
+    .awards_title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+    .award_item_inner {
+        width: 119px;
+        height: 119px;
+        font-size: 30px;
+        line-height: 41px;
+        padding-top: 39px;
+        margin-bottom: 12px;
+    }
+    .awards_desc_text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .awards_item {
+        margin-bottom: 21px;
+    }
+    .learn_more {
+        min-width: 150px;
+        height: 30px;
+        border: 2px solid #B7B7B7;
+        font-size: 13px;
+        line-height: 17px;
+        padding-top: 2px;
+        border-radius: 25px;
+    }
+    .steps_arrow {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider_item {
+        height: 310px;
+    }
+    .slider_item_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .slider_item_text {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 13px;
+    }
+    .slider_item_content {
+        width: 100%;
+        padding: 50px 16px 0 16px;
+    }
+    .slick-prev, .slick-next {
+        display: none !important;
+    }
+    .start_trading {
+        min-width: 150px;
+        height: 30px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .slick-dots li {
+        width: 10px;
+        height: 10px;
+        margin: 0 6px;
+    }
+    .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+    .slick-dots li button:before {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #FFFFFF;
+    }
+    .slick-dots {
+        bottom: 19px;
+    }
+    .benefits_wrapper {
+        padding: 31px 0 27px 0;
+    }
+    .benefits_title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .benefits_left {
+        width: 100%;
+        padding: 30px 20px;
+        background-position: center;
+        margin: 0;
+        text-align: center;
+    }
+    .comp_block {
+        width: 100%;
+        height: 266px;
+        background-size: contain;
+        padding: 0;
+        background-image: url(/images/comp.png);
+    }
+    .benefits_right {
+        width: 100%;
+        margin: 0;
+        padding: 16px 20px 0 20px;
+    }
+    .comp_block_inner {
+        background-size: 341px 215px;
+        background-position: 50% 25%;
+    }
+    .benefit_title {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .benefit_text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .benefit_item {
+        margin-bottom: 10px;
+    }
+    .steps_wrapper {
+        padding: 25px 0 0 0;
+    }
+    .steps_title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+    .steps_item {
+        width: 100%;
+        margin: 0 0 30px 0;
+        padding: 0 0 0 46px;
+    }
+    .steps_icon {
+        width: 100px;
+        height: 100px;
+        padding-top: 22px;
+        margin-bottom: 0;
+        float: left;
+        margin-right: 16px;
+    }
+    .registration {
+        width: 40px;
+    }
+    .deposit {
+        width: 34px;
+    }
+    .deal {
+        width: 48px;
+    }
+    .steps_subtitle {
+        min-height: auto;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        text-align: left;
+        padding: 10px 20px 0 0;
+    }
+    .steps_text {
+        font-size: 12px;
+        line-height: 16px;
+        text-align: left;
+        padding-right: 20px;
+    }
+    .news_wrapper {
+        padding: 20px 0 0 0;
+    }
+    .news_title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+    .news_slider_title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .news_slider_text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .news_slider_content {
+        padding: 19px 26px 0 26px;
+    }
+    .news_read_wrapper {
+        right: 26px;
+    }
+    .news_slider_item {
+        width: 330px;
+        height: 440px;
+    }
+    .news_wrapper .slick-list {
+        height: 500px;
+    }
+    .info_title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 27px;
+    }
+    .info_wrapper {
+        padding: 50px 0 0 0;
+    }
+    .info_wrapper .main_content {
+        padding: 0;
+    }
+    .info_item_middle {
+        width: 280px;
+        height: 560px;
+        padding: 31px 26px 0 26px;
+    }
+    .info_item_left {
+        width: 290px;
+        height: 520px;
+        margin-top: 40px;
+        padding: 36px 30px 0 30px;
+    }
+    .info_wrapper .slick-list {
+        height: 713px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .news_slider_top_wrapper {
+        text-align: center;
+    }
+    .news_slider_item {
+        display: inline-block;
+    }
+    .news_wrapper .main_content {
+        padding: 0;
+    }
+}
+
+@media (max-width: 780px) {
+    .news_slider_top_wrapper {
+        text-align: center;
+        margin-left: -27%;
+    }
+}
+
+@media (max-width: 720px) {
+    .news_slider_top_wrapper {
+        margin: 0 0 0 110px;
+    }
+}
+
+@media (max-width: 500px) {
+    .news_slider_top_wrapper {
+        margin: 0 0 0 55px;
+    }
+}
+
+@media (max-width: 480px) {
+    .comp_block {
+        background-size: 310px;
+    }
+    .comp_block_inner {
+        background-size: 239px 155px;
+        background-position: 50% 41%;
+    }
+    .benefits_left {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .news_slider_top_wrapper {
+        margin: 0;
+    }
+    .awards_items_mobile {
+        display: none;
+    }
+    .awards_items_mobile_small {
+        display: block;
+    }
+    .awards_items_mobile_small .awards_item_mobile {
+        justify-content: space-around;
+    }
+    .why_forex_inner {
+        height: 190px;
+    }
+    .why_forex_icon {
+        width: 80px;
+    }
+}
+
+@media (max-width: 390px) {
+    .slider_item_content {
+        padding-top: 10px;
+    }
+    .steps_item {
+        padding: 0 0 0 10px;
+    }
+    .steps_icon {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 370px) {
+    .why_forex_inner {
+        height: 210px;
+    }
+}
