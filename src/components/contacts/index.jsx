@@ -9,7 +9,7 @@ import Modal from 'react-modal';
 import 'rc-time-picker/assets/index.css';
 import moment from 'moment';
 import TimePicker from 'rc-time-picker';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, injectIntl } from 'react-intl';
 const showSecond = true;
 const str = showSecond ? 'HH:mm:ss' : 'HH';
 
@@ -39,7 +39,7 @@ const countries = [
     { label: "Другая", value: "Другая" }
 ];
 
-function Contacts(props) {
+function Contacts({ intl }, props) {
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -171,9 +171,8 @@ function Contacts(props) {
                         </button>
                     </div>
                     <div className="call_order_text text_center">
-                        запросите звонок и мы свяжемся с вами
-                        в ближайшее время
-                        </div>
+                        <FormattedMessage id="requestACall" defaultMessage="requestACall" />
+                    </div>
                     <Modal
                         isOpen={modalIsOpen}
                         onRequestClose={closeModal}
@@ -182,10 +181,10 @@ function Contacts(props) {
                     >
                         <div className="modal_title text_center font_bold">
                             Оставьте заявку
-                            </div>
+                        </div>
                         <div className="contacts_inps">
                             <div className="contacts_input">
-                                <input type="text" placeholder="Имя*" name="first_name" onChange={handleNameChange} autoComplete="off" />
+                                <input type="text" placeholder={intl.formatMessage({id: 'name'})} name="first_name" onChange={handleNameChange} autoComplete="off" />
                                 {
                                     nameErrorMsg ?
                                         <div className="contacts_error_msg">field is required</div>
@@ -193,7 +192,7 @@ function Contacts(props) {
                                 }
                             </div>
                             <div className="contacts_input">
-                                <input type="text" placeholder="Фамилия*" name="last_name" onChange={handleLastNameChange} autoComplete="off" />
+                                <input type="text" placeholder={intl.formatMessage({id: 'lastName'})} name="last_name" onChange={handleLastNameChange} autoComplete="off" />
                                 {
                                     lastNameErrorMsg ?
                                         <div className="contacts_error_msg">field is required</div>
@@ -201,10 +200,10 @@ function Contacts(props) {
                                 }
                             </div>
                             <div className="contacts_input">
-                                <input type="text" placeholder="Ваш номер телефона" name="phone_number" onChange={handlePhoneNumberChange} autoComplete="off" />
+                                <input type="text" placeholder={intl.formatMessage({id: 'yourPhoneNumber'})} name="phone_number" onChange={handlePhoneNumberChange} autoComplete="off" />
                             </div>
                             <div className="contacts_input">
-                                <input type="text" placeholder="Ваш E-mail*" name="email" onChange={handleEmailChange} autoComplete="off" />
+                                <input type="text" placeholder={intl.formatMessage({id: 'yourEmail'})} name="email" onChange={handleEmailChange} autoComplete="off" />
                                 {
                                     emailErrorMsg ?
                                         <div className="contacts_error_msg">field is required</div>
@@ -215,7 +214,7 @@ function Contacts(props) {
                                 <Dropdown
                                     options={countries}
                                     onChange={_onSelect}
-                                    value={'Страна'}
+                                    value={intl.formatMessage({id: 'aCountry'})}
                                     placeholder="Select an option"
                                     arrowClosed={<span className="arrow_closed" />}
                                     arrowOpen={<span className="arrow_opened" />}
@@ -227,11 +226,11 @@ function Contacts(props) {
                                 }
                             </div>
                             <div className="contacts_input">
-                                <input type="text" placeholder="Язык" name="language" onChange={handleLanguageChange} value={props.lang} autoComplete="off" readOnly />
+                                <input type="text" placeholder={intl.formatMessage({id: 'supportLanguage'})} name="language" onChange={handleLanguageChange} value={props.lang} autoComplete="off" readOnly />
                             </div>
                             <div className="contacts_input contacts_input_time">
                                 <div className="contacts_input_time_inner">
-                                    <input type="text" placeholder="Удобное время для звонка" name="time_to_call" value={timeToCall} onChange={handleTimeToCallChange} readOnly />
+                                    <input type="text" placeholder={intl.formatMessage({id: 'convenientTimeToCall'})} name="time_to_call" value={timeToCall} onChange={handleTimeToCallChange} readOnly />
                                 </div>
                                 <div className="contacts_input_time_inner">
                                     <TimePicker
@@ -252,17 +251,17 @@ function Contacts(props) {
                             <div className="why_forex_item inline_block why_forex_left">
                                 <div className="why_forex_inner">
                                     <div className="why_forex_inner_title font_bold">
-                                        Международный номер
-                                        </div>
+                                        <FormattedMessage id="internationalNumber" defaultMessage="internationalNumber" />
+                                    </div>
                                     <div className="why_forex_inner_text">
                                         +7 90 99090909090
-                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="why_forex_item inline_block why_forex_left">
                                 <div className="why_forex_inner">
                                     <div className="why_forex_inner_title font_bold">
-                                        Почта
+                                        <FormattedMessage id="mailBox" defaultMessage="mailBox" />
                                         </div>
                                     <div className="why_forex_inner_text">
                                         support@foxinforex.com
@@ -272,10 +271,10 @@ function Contacts(props) {
                             <div className="why_forex_item inline_block why_forex_left">
                                 <div className="why_forex_inner">
                                     <div className="why_forex_inner_title font_bold">
-                                        Месторасположение
+                                        <FormattedMessage id="location" defaultMessage="location" />
                                         </div>
                                     <div className="why_forex_inner_text">
-                                        Берется из копирайтинга
+                                        <FormattedMessage id="address" defaultMessage="address" />
                                         </div>
                                 </div>
                             </div>
@@ -287,4 +286,4 @@ function Contacts(props) {
     )
 }
 
-export default Contacts;
+export default injectIntl(Contacts);

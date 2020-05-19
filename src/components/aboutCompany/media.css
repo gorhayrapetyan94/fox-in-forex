@@ -123,6 +123,9 @@
         width: auto;
         margin-bottom: 21px !important;
     }
+    .history_tabs .react-tabs__tab-panel {
+        min-height: 170px;
+    }
     .platform_wrapper {
         padding: 34px 0 143px 0;
     }
@@ -141,7 +144,7 @@
         line-height: 32px;
     }
     .platform_list_item {
-        font-size: 24px;
+        font-size: 18px;
         line-height: 32px;
         padding-left: 18px;
     }
@@ -428,7 +431,7 @@
         line-height: 22px;
     }
     .platform_list_item {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 22px;
         padding-left: 18px;
     }

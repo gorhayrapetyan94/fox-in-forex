@@ -114,7 +114,7 @@ function App() {
 										arrowOpen={<span className="arrow_opened" />}
 									/>
 								</span>
-								<button className="header_btn login_btn transitioned">
+								<button className={selectedLanguage === 'de' ? "header_btn login_btn login_btn_de transitioned" : "header_btn login_btn transitioned"}>
 									<FormattedMessage id="login" defaultMessage="login" />
 								</button>
 								<button className="header_btn reg_btn transitioned">
@@ -137,7 +137,7 @@ function App() {
 									</NavLink>
 								</div>
 								<div className="header_right">
-									<button className="header_btn login_btn transitioned">
+									<button className={selectedLanguage === 'de' ? "header_btn login_btn login_btn_de transitioned" : "header_btn login_btn transitioned"}>
 										<FormattedMessage id="login" defaultMessage="login" />
 									</button>
 									<button className="header_btn reg_btn transitioned">

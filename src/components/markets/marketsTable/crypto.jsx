@@ -9,7 +9,7 @@ function CryptoTable() {
                     <tr>
                         <th><FormattedMessage id="tool" defaultMessage="tool" /></th>
                         <th><FormattedMessage id="minPriceChange" defaultMessage="minPriceChange" /></th>
-                        <th>Standard lot</th>
+                        <th><FormattedMessage id="standardLot" defaultMessage="standardLot" /></th>
                         <th>Min volume</th>
                         <th>Max volume</th>
                         <th>Max leverage</th>
@@ -25,7 +25,6 @@ function CryptoTable() {
                         <td>1</td>
                         <td>100</td>
                         <td>1:2</td>
-                        <td>1</td>
                         <td>0:05</td>
                         <td>23:45</td>
                     </tr>
@@ -36,7 +35,6 @@ function CryptoTable() {
                         <td>1</td>
                         <td>100</td>
                         <td>1:2</td>
-                        <td>1</td>
                         <td>0:05</td>
                         <td>23:45</td>
                     </tr>
@@ -47,7 +45,6 @@ function CryptoTable() {
                         <td>1</td>
                         <td>100</td>
                         <td>1:1</td>
-                        <td>1</td>
                         <td>0:05</td>
                         <td>23:45</td>
                     </tr>
@@ -58,7 +55,6 @@ function CryptoTable() {
                         <td>1</td>
                         <td>100</td>
                         <td>1:1</td>
-                        <td>1</td>
                         <td>0:05</td>
                         <td>23:45</td>
                     </tr>
@@ -69,7 +65,6 @@ function CryptoTable() {
                         <td>1</td>
                         <td>100</td>
                         <td>1:1</td>
-                        <td>1</td>
                         <td>0:05</td>
                         <td>23:45</td>
                     </tr>
@@ -80,7 +75,6 @@ function CryptoTable() {
                         <td>1</td>
                         <td>100</td>
                         <td>1:1</td>
-                        <td>1</td>
                         <td>0:05</td>
                         <td>23:45</td>
                     </tr>
@@ -91,7 +85,6 @@ function CryptoTable() {
                         <td>1</td>
                         <td>100</td>
                         <td>1:1</td>
-                        <td>1</td>
                         <td>0:05</td>
                         <td>23:45</td>
                     </tr>

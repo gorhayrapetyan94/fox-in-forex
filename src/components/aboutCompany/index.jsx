@@ -31,9 +31,9 @@ class AboutCompany extends React.Component {
                                     <div className="statistics_item">
                                         <div className="statistic_number">
                                             <NumberAnimation
-                                                count={370000}
+                                                count={370}
                                                 symbolVisibility
-                                                symbol="+"
+                                                symbol=" 000+"
                                             />
                                         </div>
                                         <div className="statistics_text">

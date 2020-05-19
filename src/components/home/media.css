@@ -3,7 +3,8 @@
         height: 670px;
     }
     .slider_item_content {
-        padding-top: 213px;
+        width: 48%;
+        padding-top: 161px;
     }
     .slider_item_title {
         font-size: 36px;
@@ -20,6 +21,7 @@
         height: 50px;
         font-size: 20px;
         line-height: 27px;
+        background: linear-gradient(34.93deg, #CF3E2E -22.23%, rgba(255, 255, 255, 0) 95%), #FE9432;
     }
     .slick-prev, .slick-next {
         width: 40px;

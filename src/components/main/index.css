@@ -154,6 +154,10 @@ header {
     color: #fff;
 }
 
+.login_btn_de {
+    padding: 0 15px;
+}
+
 .reg_btn {
     color: #FFFFFF;
     background: linear-gradient(75.03deg, #CF3E2E -44.46%, rgba(255, 255, 255, 0) 190.03%), #FE9432;

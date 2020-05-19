@@ -4,6 +4,14 @@
     "contacts" : "Datos de contacto",
     "login": "Iniciar sesión",
 
+    "name": "Nombre*",
+    "lastName": "Apellido*",
+    "yourPhoneNumber": "Su número de teléfono",
+    "yourEmail": "Su correo electrónico*",
+    "aCountry": "Pais",
+    "supportLanguage": "Idioma de la ayuda",
+    "convenientTimeToCall": "Tiempo conveniente para llamar",
+
     "whyIsAFoxInForex": "¿Por qué es un zorro en forex?",
     "additionalBenefits": "Beneficios adicionales",
     "threeStepsToStartTrading": "Tres pasos para comenzar a operar",
@@ -11,8 +19,8 @@
     "read": "Leer",
     "source": "Fuente",
     "accountInformation": "Informacion de cuenta",
-    "openDemoAccount": "Abrir cuenta demo",
-    "personalUserSupport": "Soporte personal de usuario 24/7",
+    "openDemoAccount": "Abrir cuenta demo", 
+    "personalUserSupport": "Soporte personal de usuario 24/7", 
     "requestCallback": "Solicitar una devolución de llamada",
     
     "registration": "Registro",
@@ -20,15 +28,15 @@
     "learnMore": "Más información",
     "openAnAccount": "Abrir una cuenta",
 
-    "tool": "Herramienta",
-    "minPriceChange": "Mín. cambio de precio",
+    "tool": "Instrumento",
+    "minPriceChange": "Min. cambio de precio",
     "standardLot": "Lote estándar",
-    "minLotSize": "Mín. mucho tamaño",
-    "maxLotSize": "Máx. mucho tamaño",
+    "minLotSize": "Min. tamaño del lote",
+    "maxLotSize": "Max. tamaño del lote",
     "stepOfChangingTheVolumeInLots": "Paso de cambiar el volumen en lotes", 
-    "maxShoulder": "Máx. hombro",
-    "opening": "Apertura",
-    "closing": "Cierre",
+    "maxShoulder": "Max. hombro",
+    "opening": "Apertura*",
+    "closing": "Clausura*",
 
     "sliderTitle1": "Fox en Forex es el camino para los operadores exitosos.",
     "sliderText1": "Obtenga la oportunidad de operar en los mercados financieros con acceso a los activos de CFD.",
@@ -164,6 +172,12 @@
     "platformItem8": "Apalancamiento hasta 1: 500;",
     "platformItem9": "Archivo de operaciones en la cuenta;",
     "platformItem10": "Soporte para todos los navegadores.",
+
+    "requestACall": "solicite una llamada y nos contactaremos a la brevedad",
+    "internationalNumber": "Número internacional",
+    "mailBox": "correo",
+    "location": "Ubicación",
+    "address": "23, Sturt Street, Melbourne, VIC 3008, Australia.",
 
     "pageNotFoundTitle": "Página no encontrada.",
     "pageNotFoundText": "Puede estar desactualizado o eliminado, pero lo arreglaremos pronto. Intente volver a la página principal del sitio o póngase en contacto con el soporte."

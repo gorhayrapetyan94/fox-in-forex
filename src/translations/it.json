@@ -4,6 +4,14 @@
     "contacts" : "Dettagli di contatto",
     "login": "Accedi",
 
+    "name": "Nome*",
+    "lastName": "Cognome*",
+    "yourPhoneNumber": "Il tuo numero di telefono",
+    "yourEmail": "La tua e-mail*",
+    "aCountry": "Paese",
+    "supportLanguage": "Lingua di sostegno",
+    "convenientTimeToCall": "Tempo conveniente per chiamare",
+
     "whyIsAFoxInForex": "Perché una volpe nel forex?",
     "additionalBenefits": "Ulteriori vantaggi",
     "threeStepsToStartTrading": "Tre passaggi per iniziare a fare trading",
@@ -17,18 +25,18 @@
     
     "registration": "Registrazione",
     "startTrading": "Inizia a fare trading",
-    "learnMore": "Per saperne di più",
-    "openAnAccount": "Aprire un conto",
+    "learnMore": "Per saperne di più", 
+    "openAnAccount": "Aprire un conto", 
 
     "tool": "Strumento",
-    "minPriceChange": "Min. variazione dei Prezzi",
+    "minPriceChange": "Min. cambio di prezzo",
     "standardLot": "Lotto Standard",
     "minLotSize": "Min. dimensione del lotto",
     "maxLotSize": "Max. dimensione del lotto",
-    "stepOfChangingTheVolumeInLots": "Passo di cambiare il volume in lotti",
+    "stepOfChangingTheVolumeInLots": "Fase di modifica del volume in lotti",
     "maxShoulder": "Max. spalla",
-    "opening": "Apertura",
-    "closing": "Chiusura", 
+    "opening": "Apertura*",
+    "closing": "Chiusura*", 
 
     "sliderTitle1": "Fox nel Forex è il modo per i commercianti di successo.",
     "sliderText1": "Ottieni l'opportunità di operare sui mercati finanziari con accesso alle attività CFD.",
@@ -164,6 +172,12 @@
     "platformItem8": "Leva fino a 1: 500;",
     "platformItem9": "Archivio delle operazioni sul conto;",
     "platformItem10": "Supporto per tutti i browser.",
+
+    "requestACall": "richiedi una chiamata e ti contatteremo a breve",
+    "internationalNumber": "Numero internazionale",
+    "mailBox": "posta",
+    "location": "Posizione",
+    "address": "23, Sturt Street, Melbourne, VIC 3008, Australia.",
 
     "pageNotFoundTitle": "Pagina non trovata.",
     "pageNotFoundText": "Potrebbe essere obsoleto o cancellato, ma lo risolveremo presto. Prova a tornare alla pagina principale del sito o contatta il supporto."

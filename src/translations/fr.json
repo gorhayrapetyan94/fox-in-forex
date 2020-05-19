@@ -4,6 +4,14 @@
     "contacts" : "Coordonnées",
     "login": "Connectez-vous",
 
+    "name": "Nom*",
+    "lastName": "Nom de famille*",
+    "yourPhoneNumber": "Votre numéro de téléphone",
+    "yourEmail": "Votre E-mail*",
+    "aCountry": "Pays",
+    "supportLanguage": "Support de la langue",
+    "convenientTimeToCall": "Temps commode pour appeler",
+
     "whyIsAFoxInForex": "Pourquoi un renard dans le forex?",
     "additionalBenefits": "Des avantages supplémentaires",
     "threeStepsToStartTrading": "Trois étapes pour commencer à trader",
@@ -15,20 +23,20 @@
     "personalUserSupport": "Assistance utilisateur personnelle 24/7",
     "requestCallback": "Demander un rappel",
 
-    "registration": "Enregistrement",
+    "registration": "Enregistrement", 
     "startTrading": "Commencer à trader",
-    "learnMore": "En savoir plus",
+    "learnMore": "En savoir plus", 
     "openAnAccount": "Ouvrir un compte",
 
-    "tool": "Outil",
+    "tool": "Instrument",
     "minPriceChange": "Min. changement de prix",
     "standardLot": "Lot Standard",
     "minLotSize": "Min. la taille du lot",
     "maxLotSize": "Max. la taille du lot",
-    "stepOfChangingTheVolumeInLots": "Étape de changer le volume en lots",
+    "stepOfChangingTheVolumeInLots": "Étape de modification du volume par lots",
     "maxShoulder": "Max. épaule",
-    "opening": "Ouverture",
-    "closing": "Clôture", 
+    "opening": "Ouverture*",
+    "closing": "Fermeture*", 
 
     "sliderTitle1": "Fox dans le Forex est la voie pour les commerçants qui réussissent.",
     "sliderText1": "Gagnez la possibilité de négocier sur les marchés financiers avec accès aux actifs CFD.",
@@ -164,6 +172,12 @@
     "platformItem8": "Effet de levier jusqu'à 1: 500;",
     "platformItem9": "Archivage des opérations sur le compte;",
     "platformItem10": "Support pour tous les navigateurs.",
+
+    "requestACall": "demandez un appel et nous vous contacterons sous peu",
+    "internationalNumber": "Numéro international",
+    "mailBox": "courrier",
+    "location": "Emplacement",
+    "address": "23, Sturt Street, Melbourne, VIC 3008, Australie.",
 
     "pageNotFoundTitle": "Page non trouvée.",
     "pageNotFoundText": "Il peut être obsolète ou supprimé, mais nous allons le réparer bientôt. Essayez de revenir à la page principale du site ou contactez le support."
