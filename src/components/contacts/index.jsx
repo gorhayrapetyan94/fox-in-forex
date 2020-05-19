@@ -120,7 +120,7 @@ function Contacts(props) {
 
     const handleFormSubmit = () => {
 
-        const formUrl = 'http://casino.local/sender.php';
+        const formUrl = 'https://foxinforex.lionix-team.com/php/sender.php';
 
         const formData = {
             first_name: name,

@@ -230,3 +230,7 @@ header {
     background-color: #eceff1 !important;
     color: #949494 !important;
 }
+
+.footer_image {
+    margin-bottom: -7px;
+}

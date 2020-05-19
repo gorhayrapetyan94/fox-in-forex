@@ -176,7 +176,7 @@ function App() {
 						</Route>
 					</Switch>
 					<div>
-						<img src={
+						<img className="footer_image inline_block" src={
 							windowWidth <= 768 ?
 								`/images/footer_mobile_${selectedLanguage}.png`
 								: windowWidth <= 1350 ?

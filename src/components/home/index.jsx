@@ -41,7 +41,7 @@ function HomePage(props) {
     }
 
     const getRssNewsData = () => {
-        const rssUrl = 'http://casino.local/rssrequest.php?lang=' + props.lang;
+        const rssUrl = 'https://foxinforex.lionix-team.com/php/rssrequest.php?lang=' + props.lang;
 
         fetch(rssUrl, { mode: 'no-cors' })
             .then((response) => {
