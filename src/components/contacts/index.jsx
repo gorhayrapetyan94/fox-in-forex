@@ -120,7 +120,7 @@ function Contacts({ intl }, props) {
 
     const handleFormSubmit = () => {
 
-        const formUrl = 'https://foxinforex.lionix-team.com/php/sender.php';
+        const formUrl = 'https://api.foxinforex.lionix-team.com/sender.php';
 
         const formData = {
             first_name: name,

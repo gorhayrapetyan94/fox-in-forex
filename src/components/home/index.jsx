@@ -41,7 +41,7 @@ function HomePage(props) {
     }
 
     const getRssNewsData = () => {
-        const rssUrl = 'https://foxinforex.lionix-team.com/php/rssrequest.php?lang=' + props.lang;
+        const rssUrl = 'https://api.foxinforex.lionix-team.com/rssrequest.php?lang=' + props.lang;
 
         fetch(rssUrl, { mode: 'no-cors' })
             .then((response) => {
