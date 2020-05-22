@@ -7,8 +7,9 @@ import './media.css';
 
 import { FormattedMessage } from 'react-intl';
 
+import axios from 'axios';
+
 function HomePage(props) {
-    var rssData = [];
 
     const [firstHover, setFirstHover] = useState(true);
     const [secondHover, setSecondHover] = useState(false);
@@ -40,28 +41,24 @@ function HomePage(props) {
         setFourthHover(true);
     }
 
+    const [rssData, setRssData] = useState([]);
+
     const getRssNewsData = () => {
         const rssUrl = 'https://api.foxinforex.lionix-team.com/rssrequest.php?lang=' + props.lang;
 
-        fetch(rssUrl, 
-            {
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-            })
+        axios.get(rssUrl, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
             .then((response) => {
-                return response.text();
+                setRssData(response.data);
             })
-            .then((data) => {
-                rssData = data;
-            });
     }
-    getRssNewsData();
 
     useEffect(() => {
         getRssNewsData();
-    });
+    }, [props.lang]);
 
     const settings = {
         dots: true,
@@ -179,7 +176,7 @@ function HomePage(props) {
                 }
             }
         ]
-    }   
+    }
 
     return (
         <>
@@ -809,6 +806,7 @@ function HomePage(props) {
                 <div className="main_content">
                     <div className="news_title text_center font_bold">
                         <FormattedMessage id="latestEconomicNews" defaultMessage="latestEconomicNews" />
+                        
                     </div>
                     <Slider {...newsSliderSettings}>
                         {
