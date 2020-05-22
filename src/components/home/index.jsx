@@ -43,7 +43,7 @@ function HomePage(props) {
     const getRssNewsData = () => {
         const rssUrl = 'https://api.foxinforex.lionix-team.com/rssrequest.php?lang=' + props.lang;
 
-        fetch(rssUrl)
+        fetch(rssUrl, {method: 'GET'})
             .then((response) => {
                 return response.text();
             })
