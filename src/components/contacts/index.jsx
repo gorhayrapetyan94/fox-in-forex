@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
 import './media.css';
-import axios from 'axios';
 
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
@@ -13,8 +12,6 @@ import TimePicker from 'rc-time-picker';
 import { FormattedMessage, injectIntl } from 'react-intl';
 const showSecond = true;
 const str = showSecond ? 'HH:mm:ss' : 'HH';
-
-
 
 const customStyles = {
     content: {
@@ -145,24 +142,15 @@ function Contacts({ intl, lang }) {
             return;
         }
 
-        // const requestOptions = {
-        //     method: 'POST',
-        //     mode: 'no-cors',
-        //     headers: { 'Content-Type': 'application/json' },
-        //     body: JSON.stringify(formData)
-        // };
-
-        axios.post(formUrl, formData)
-            .then(function (response) {
-                console.log(response);
-            })
-            .catch(function (error) {
-                console.log(error);
-            });
-
-        // fetch(formUrl, requestOptions)
-        //     .then(response => response.json())
-        //     .then(data => console.log(data));
+        const requestOptions = {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData)
+        };
+        fetch(formUrl, requestOptions)
+            .then(response => response.json())
+            .then(data => console.log(data));
     }
 
     return (
@@ -196,7 +184,7 @@ function Contacts({ intl, lang }) {
                         </div>
                         <div className="contacts_inps">
                             <div className="contacts_input">
-                                <input type="text" placeholder={intl.formatMessage({ id: 'name' })} name="first_name" onChange={handleNameChange} autoComplete="off" />
+                                <input type="text" placeholder={intl.formatMessage({id: 'name'})} name="first_name" onChange={handleNameChange} autoComplete="off" />
                                 {
                                     nameErrorMsg ?
                                         <div className="contacts_error_msg">field is required</div>
@@ -204,7 +192,7 @@ function Contacts({ intl, lang }) {
                                 }
                             </div>
                             <div className="contacts_input">
-                                <input type="text" placeholder={intl.formatMessage({ id: 'lastName' })} name="last_name" onChange={handleLastNameChange} autoComplete="off" />
+                                <input type="text" placeholder={intl.formatMessage({id: 'lastName'})} name="last_name" onChange={handleLastNameChange} autoComplete="off" />
                                 {
                                     lastNameErrorMsg ?
                                         <div className="contacts_error_msg">field is required</div>
@@ -212,10 +200,10 @@ function Contacts({ intl, lang }) {
                                 }
                             </div>
                             <div className="contacts_input">
-                                <input type="text" placeholder={intl.formatMessage({ id: 'yourPhoneNumber' })} name="phone_number" onChange={handlePhoneNumberChange} autoComplete="off" />
+                                <input type="text" placeholder={intl.formatMessage({id: 'yourPhoneNumber'})} name="phone_number" onChange={handlePhoneNumberChange} autoComplete="off" />
                             </div>
                             <div className="contacts_input">
-                                <input type="text" placeholder={intl.formatMessage({ id: 'yourEmail' })} name="email" onChange={handleEmailChange} autoComplete="off" />
+                                <input type="text" placeholder={intl.formatMessage({id: 'yourEmail'})} name="email" onChange={handleEmailChange} autoComplete="off" />
                                 {
                                     emailErrorMsg ?
                                         <div className="contacts_error_msg">field is required</div>
@@ -226,7 +214,7 @@ function Contacts({ intl, lang }) {
                                 <Dropdown
                                     options={countries}
                                     onChange={_onSelect}
-                                    value={intl.formatMessage({ id: 'aCountry' })}
+                                    value={intl.formatMessage({id: 'aCountry'})}
                                     placeholder="Select an option"
                                     arrowClosed={<span className="arrow_closed" />}
                                     arrowOpen={<span className="arrow_opened" />}
@@ -238,11 +226,11 @@ function Contacts({ intl, lang }) {
                                 }
                             </div>
                             <div className="contacts_input">
-                                <input type="text" placeholder={intl.formatMessage({ id: 'supportLanguage' })} name="language" onChange={handleLanguageChange} value={lang} autoComplete="off" readOnly />
+                                <input type="text" placeholder={intl.formatMessage({id: 'supportLanguage'})} name="language" onChange={handleLanguageChange} value={lang} autoComplete="off" readOnly />
                             </div>
                             <div className="contacts_input contacts_input_time">
                                 <div className="contacts_input_time_inner">
-                                    <input type="text" placeholder={intl.formatMessage({ id: 'convenientTimeToCall' })} name="time_to_call" value={timeToCall} onChange={handleTimeToCallChange} readOnly />
+                                    <input type="text" placeholder={intl.formatMessage({id: 'convenientTimeToCall'})} name="time_to_call" value={timeToCall} onChange={handleTimeToCallChange} readOnly />
                                 </div>
                                 <div className="contacts_input_time_inner">
                                     <TimePicker
@@ -274,7 +262,7 @@ function Contacts({ intl, lang }) {
                                 <div className="why_forex_inner">
                                     <div className="why_forex_inner_title font_bold">
                                         <FormattedMessage id="mailBox" defaultMessage="mailBox" />
-                                    </div>
+                                        </div>
                                     <div className="why_forex_inner_text">
                                         support@foxinforex.com
                                         </div>
@@ -284,10 +272,10 @@ function Contacts({ intl, lang }) {
                                 <div className="why_forex_inner">
                                     <div className="why_forex_inner_title font_bold">
                                         <FormattedMessage id="location" defaultMessage="location" />
-                                    </div>
+                                        </div>
                                     <div className="why_forex_inner_text">
                                         <FormattedMessage id="address" defaultMessage="address" />
-                                    </div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
