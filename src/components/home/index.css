@@ -158,7 +158,7 @@
 .start_trading {
     min-width: 480px;
     height: 100px;
-    background: linear-gradient(69.86deg, #CF3E2E -44.46%, rgba(255, 255, 255, 0) 190.03%), #FE9432;
+    background-image: linear-gradient(to right, rgb(225, 111, 81) , rgb(247, 160, 99));
     border-radius: 50px;
     font-size: 40px;
     line-height: 53px;
@@ -309,7 +309,7 @@
     width: 1024px;
     height: 616px;
     padding: 30px 117px 91px 120px;
-    background-image: url(/images/comp.png);
+    background-image: url(/images/comp1.png);
     position: relative;
 }
 
@@ -419,8 +419,7 @@
     border: 4px solid #FFFFFF;
 }
 
-.news_wrapper .slick-prev:hover:before, .news_wrapper .slick-prev:focus:before, 
-.news_wrapper .slick-next:hover:before, .news_wrapper .slick-next:focus:before {
+.news_wrapper .slick-prev:hover:before, .news_wrapper .slick-prev:focus:before, .news_wrapper .slick-next:hover:before, .news_wrapper .slick-next:focus:before {
     background: #656565;
     opacity: 0.2;
     border: 4px solid #FFFFFF;

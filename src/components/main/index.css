@@ -152,6 +152,7 @@ header {
 .login_btn:hover {
     background-color: #FE9432;
     color: #fff;
+    border-color: #EA865E;
 }
 
 .login_btn_de {
@@ -160,7 +161,7 @@ header {
 
 .reg_btn {
     color: #FFFFFF;
-    background: linear-gradient(75.03deg, #CF3E2E -44.46%, rgba(255, 255, 255, 0) 190.03%), #FE9432;
+    background-image: linear-gradient(to right, rgb(225, 111, 81) , rgb(247, 160, 99));
     margin-left: 34px;
 }
 

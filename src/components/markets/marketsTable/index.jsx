@@ -494,9 +494,6 @@ function MarketsTable() {
                     </tr>
                 </tbody>
             </table>
-            <div className="table_last text_left">
-                *часы закрытия и открытия торгов указаны по UTC+0
-            </div>
         </>
     )
 }

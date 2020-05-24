@@ -180,7 +180,7 @@ function Contacts({ intl, lang }) {
                         contentLabel="Example Modal"
                     >
                         <div className="modal_title text_center font_bold">
-                            Оставьте заявку
+                            <FormattedMessage id="leaveARequest" defaultMessage="leaveARequest" />
                         </div>
                         <div className="contacts_inps">
                             <div className="contacts_input">
@@ -243,7 +243,7 @@ function Contacts({ intl, lang }) {
                             </div>
                         </div>
                         <div className="send_wrapper text_center">
-                            <input type="button" className="send transitioned" value="Отправить" onClick={handleFormSubmit} />
+                            <input type="button" className="send transitioned" value={intl.formatMessage({id: 'send'})} onClick={handleFormSubmit} />
                         </div>
                     </Modal>
                     <div className="contacts_items">

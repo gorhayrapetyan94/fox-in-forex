@@ -157,6 +157,9 @@ class Markets extends React.Component {
                                         <CryptoTable />
                                     </TabPanel>
                                 </Tabs>
+                                <div className="table_last text_left">
+                                    <FormattedMessage id='closingAndOpening' defaultMessage='closingAndOpening' />
+                                </div>
                             </div>
                         </div>
                     </div>

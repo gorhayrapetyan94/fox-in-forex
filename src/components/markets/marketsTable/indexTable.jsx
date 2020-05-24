@@ -7,13 +7,13 @@ function IndexTable() {
             <table className="markets_table">
                 <thead>
                     <tr>
-                        <th>Title</th>
+                        <th><FormattedMessage id='title' defaultMessage='title' /></th>
                         <th><FormattedMessage id="tool" defaultMessage="tool" /></th>
                         <th><FormattedMessage id="minPriceChange" defaultMessage="minPriceChange" /></th>
-                        <th>Min volume</th>
-                        <th>Max volume</th>
-                        <th>Max leverage</th>
-                        <th>Number of contracts for 1 lot</th>
+                        <th><FormattedMessage id="minVolume" defaultMessage="minVolume" /></th>
+                        <th><FormattedMessage id="maxVolume" defaultMessage="maxVolume" /></th>
+                        <th><FormattedMessage id="maxLeverage" defaultMessage="maxLeverage" /></th>
+                        <th><FormattedMessage id="numberOfContractsForOneLot" defaultMessage="numberOfContractsForOneLot" /></th>
                         <th><FormattedMessage id="opening" defaultMessage="opening" /></th>
                         <th><FormattedMessage id="closing" defaultMessage="closing" /></th>
                     </tr>
@@ -120,9 +120,6 @@ function IndexTable() {
                     </tr>
                 </tbody>
             </table>
-            <div className="table_last text_left">
-                *часы закрытия и открытия торгов указаны по UTC+0
-            </div>
         </>
     )
 }

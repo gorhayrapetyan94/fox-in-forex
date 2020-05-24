@@ -52,7 +52,7 @@
     "whyForexTitle2": "Termini di commercio trasparenti.",
     "whyForexText2": "Con Fox nel Forex, l'accumulo di spread è intelligibile. Le transazioni finanziarie senza requotes e slittamenti porteranno i clienti al massimo reddito possibile.",
     "whyForexTitle3": "Siamo scelti nel Mondo-6 premi per la migliore qualità del servizio per i commercianti.",
-    "whyForexText3": "Nel corso dei 4 anni di attività, il team FoxInForex ha vinto premi e titoli internazionali onorari, che gli conferiscono il diritto di essere considerato una delle migliori società di intermediazione al mondo",
+    "whyForexText3": "Nel corso dei 3 anni di attività, il team FoxInForex ha vinto premi e titoli internazionali onorari, che gli conferiscono il diritto di essere considerato una delle migliori società di intermediazione al mondo",
     "whyForexTitle4": "Ritiro deposito con 0% comission.",
     "whyForexText4": "Il ritiro dei fondi guadagnati dal conto viene effettuato in pochi giorni e, soprattutto, senza perdita.",
     "whyForexTitle5": "Piattaforma di trading multifunzionale.",
@@ -180,5 +180,15 @@
     "address": "23, Sturt Street, Melbourne, VIC 3008, Australia.",
 
     "pageNotFoundTitle": "Pagina non trovata.",
-    "pageNotFoundText": "Potrebbe essere obsoleto o cancellato, ma lo risolveremo presto. Prova a tornare alla pagina principale del sito o contatta il supporto."
+    "pageNotFoundText": "Potrebbe essere obsoleto o cancellato, ma lo risolveremo presto. Prova a tornare alla pagina principale del sito o contatta il supporto.",
+
+    "closingAndOpening": "* gli orari di chiusura e apertura sono indicati a UTC + 0",
+    "title": "Titolo",
+    "minVolume": "Volume minimo",
+    "maxVolume": "Volume massimo",
+    "volumePitch": "Intonazione del volume",
+    "maxLeverage": "Leva massima",
+    "numberOfContractsForOneLot": "Numero di contratti per 1 lotto",
+    "leaveARequest": "Lascia una richiesta",
+    "send": "Spedire"
 }   

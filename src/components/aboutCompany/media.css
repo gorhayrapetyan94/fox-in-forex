@@ -145,7 +145,7 @@
     }
     .platform_list_item {
         font-size: 18px;
-        line-height: 32px;
+        line-height: 28px;
         padding-left: 18px;
     }
     .platform_list_item::before {
@@ -157,7 +157,7 @@
         padding-right: 42px;
     }
     .platform_bottom_item_right {
-        padding: 25px 0 0 42px;
+        padding: 17px 0 0 42px;
     }
     .open_demo_wrapper {
         padding: 25px 0 0 21px;

@@ -10,9 +10,9 @@ function CryptoTable() {
                         <th><FormattedMessage id="tool" defaultMessage="tool" /></th>
                         <th><FormattedMessage id="minPriceChange" defaultMessage="minPriceChange" /></th>
                         <th><FormattedMessage id="standardLot" defaultMessage="standardLot" /></th>
-                        <th>Min volume</th>
-                        <th>Max volume</th>
-                        <th>Max leverage</th>
+                        <th><FormattedMessage id="minVolume" defaultMessage="minVolume" /></th>
+                        <th><FormattedMessage id="maxVolume" defaultMessage="maxVolume" /></th>
+                        <th><FormattedMessage id="maxLeverage" defaultMessage="maxLeverage" /></th>
                         <th><FormattedMessage id="opening" defaultMessage="opening" /></th>
                         <th><FormattedMessage id="closing" defaultMessage="closing" /></th>
                     </tr>
@@ -90,9 +90,6 @@ function CryptoTable() {
                     </tr>
                 </tbody>
             </table>
-            <div className="table_last text_left">
-                *часы закрытия и открытия торгов указаны по UTC+0
-            </div>
         </>
     )
 }

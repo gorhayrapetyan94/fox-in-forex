@@ -52,7 +52,7 @@
     "whyForexTitle2": "Transparent termes de l'échange.",
     "whyForexText2": "Avec Fox dans le Forex, l'accumulation des spreads est intelligible. Les transactions financières sans requotes et dérapages apporteront aux clients le revenu maximum possible.",
     "whyForexTitle3": "Nous sommes choisis dans le monde - 6 prix de la meilleure qualité de service pour les commerçants.",
-    "whyForexText3": "Au cours des 4 années d'exploitation, l'équipe FoxInForex A Remporté des prix et des titres internationaux honorifiques, ce qui lui donne le droit d'être considérée comme l'une des meilleures sociétés de courtage au monde",
+    "whyForexText3": "Au cours des 3 années d'exploitation, l'équipe FoxInForex A Remporté des prix et des titres internationaux honorifiques, ce qui lui donne le droit d'être considérée comme l'une des meilleures sociétés de courtage au monde",
     "whyForexTitle4": "Retrait de dépôt avec 0% comission.",
     "whyForexText4": "Le retrait des fonds gagnés à partir du compte est effectuée dans quelques jours et, surtout, sans perte.",
     "whyForexTitle5": "Plate-forme de négociation multifonctionnelle.",
@@ -180,5 +180,15 @@
     "address": "23, Sturt Street, Melbourne, VIC 3008, Australie.",
 
     "pageNotFoundTitle": "Page non trouvée.",
-    "pageNotFoundText": "Il peut être obsolète ou supprimé, mais nous allons le réparer bientôt. Essayez de revenir à la page principale du site ou contactez le support."
+    "pageNotFoundText": "Il peut être obsolète ou supprimé, mais nous allons le réparer bientôt. Essayez de revenir à la page principale du site ou contactez le support.",
+
+    "closingAndOpening": "* les heures de fermeture et d'ouverture sont indiquées à UTC + 0",
+    "title": "Titre",
+    "minVolume": "Volume min",
+    "maxVolume": "Volume maximum",
+    "volumePitch": "Pas de volume",
+    "maxLeverage": "Effet de levier maximum",
+    "numberOfContractsForOneLot": "Nombre de contrats pour 1 lot",
+    "leaveARequest": "Laisser une demande",
+    "send": "Envoyer"
 }   

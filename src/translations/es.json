@@ -52,7 +52,7 @@
     "whyForexTitle2": "Términos de intercambio transparentes.",
     "whyForexText2": "Con Fox In Forex, la acumulación de spreads es inteligible. Las transacciones financieras sin recotizaciones y deslizamientos traerán a los clientes el máximo ingreso posible.",
     "whyForexTitle3": "Somos elegidos en el mundo: 6 premios por la mejor calidad de servicio para los comerciantes.",
-    "whyForexText3": "Durante los 4 años de funcionamiento, el equipo de FoxInForex ha ganado premios y títulos internacionales honoríficos, lo que le otorga el derecho a ser considerada una de las mejores compañías de corretaje del mundo",
+    "whyForexText3": "Durante los 3 años de funcionamiento, el equipo de FoxInForex ha ganado premios y títulos internacionales honoríficos, lo que le otorga el derecho a ser considerada una de las mejores compañías de corretaje del mundo",
     "whyForexTitle4": "Retiro de depósito con 0% de comisión.",
     "whyForexText4": "El retiro de los fondos ganados de la cuenta se lleva a cabo en solo unos días y, lo más importante, sin pérdidas.",
     "whyForexTitle5": "Plataforma de negociación multifuncional.",
@@ -180,5 +180,15 @@
     "address": "23, Sturt Street, Melbourne, VIC 3008, Australia.",
 
     "pageNotFoundTitle": "Página no encontrada.",
-    "pageNotFoundText": "Puede estar desactualizado o eliminado, pero lo arreglaremos pronto. Intente volver a la página principal del sitio o póngase en contacto con el soporte."
+    "pageNotFoundText": "Puede estar desactualizado o eliminado, pero lo arreglaremos pronto. Intente volver a la página principal del sitio o póngase en contacto con el soporte.",
+
+    "closingAndOpening": "* los horarios de cierre y apertura se indican en UTC + 0",
+    "title": "Título",
+    "minVolume": "Volumen mínimo",
+    "maxVolume": "Maximo volumen",
+    "volumePitch": "Tono de volumen",
+    "maxLeverage": "Apalancamiento máximo",
+    "numberOfContractsForOneLot": "Número de contratos por 1 lote",
+    "leaveARequest": "Deja una solicitud",
+    "send": "Enviar"
 }   

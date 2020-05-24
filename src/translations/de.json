@@ -52,7 +52,7 @@
     "whyForexTitle2": "Transparente Geschäftsbedingungen.",
     "whyForexText2": "Mit Fox in Forex sind die anfallenden spreads verständlich. Finanztransaktionen ohne requotes und slippages bringen den Kunden das maximal mögliche Einkommen.",
     "whyForexTitle3": "Wir sind in der Welt gewählt - 6 Auszeichnungen für die beste Servicequalität für Händler.",
-    "whyForexText3": "Im Laufe der 4 betriebsjahre hat das FoxInForex-team internationale Ehrenpreise und Titel gewonnen, was Ihm das Recht gibt, als eines der besten Brokerunternehmen der Welt angesehen zu werden",
+    "whyForexText3": "Im Laufe der 3 betriebsjahre hat das FoxInForex-team internationale Ehrenpreise und Titel gewonnen, was Ihm das Recht gibt, als eines der besten Brokerunternehmen der Welt angesehen zu werden",
     "whyForexTitle4": "Einzahlung Auszahlung mit 0% provision.",
     "whyForexText4": "Der Abzug der verdienten Mittel vom Konto erfolgt in nur wenigen Tagen und vor allem ohne Verlust.",
     "whyForexTitle5": "Multifunktionale Handelsplattform.",
@@ -180,5 +180,15 @@
     "address": "23, Sturt Street, Melbourne, VIC 3008, Australien.",
 
     "pageNotFoundTitle": "Seite nicht gefunden.",
-    "pageNotFoundText": "Es kann veraltet oder gelöscht sein, aber wir werden es bald beheben. Versuchen Sie, auf die Hauptseite der Website oder Kontakt-support zurückzukehren."
+    "pageNotFoundText": "Es kann veraltet oder gelöscht sein, aber wir werden es bald beheben. Versuchen Sie, auf die Hauptseite der Website oder Kontakt-support zurückzukehren.",
+
+    "closingAndOpening": "* Schließ- und Öffnungszeiten sind bei UTC + 0 angegeben",
+    "title": "Titel",
+    "minVolume": "Min. Lautstärke",
+    "maxVolume": "maximales Volumen",
+    "volumePitch": "Lautstärke",
+    "maxLeverage": "Maximale Hebelwirkung",
+    "numberOfContractsForOneLot": "Anzahl der Verträge für 1 Los",
+    "leaveARequest": "Hinterlassen Sie eine Anfrage",
+    "send": "Senden"
 }    

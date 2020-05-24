@@ -52,7 +52,7 @@
     "whyForexTitle2": "Transparent terms of trade.",
     "whyForexText2": "With Fox In Forex, accrual of spreads are intelligible. Financial transactions without requotes and slippages will bring customers the maximum possible income.",
     "whyForexTitle3": "We are chosen in the world - 6 awards for the best quality of service for traders.",
-    "whyForexText3": "Over the 4 years of operation, the FoxInForex team has won honorary international awards and titles, which gives it the right to be considered one of the best brokerage companies in the world",
+    "whyForexText3": "Over the 3 years of operation, the FoxInForex team has won honorary international awards and titles, which gives it the right to be considered one of the best brokerage companies in the world",
     "whyForexTitle4": "Deposit withdrawal with 0% comission.",
     "whyForexText4": "The withdrawal of earned funds from the account is carried out in just a few days and, most importantly, without loss.",
     "whyForexTitle5": "Multifunctional trading platform.",
@@ -180,5 +180,15 @@
     "address": "23, Sturt Street, Melbourne, VIC 3008, Australia.",
 
     "pageNotFoundTitle": "Page not found.",
-    "pageNotFoundText": "It may be outdated or deleted, but we will fix it soon. Try to return to the main page of the site or contact support."
+    "pageNotFoundText": "It may be outdated or deleted, but we will fix it soon. Try to return to the main page of the site or contact support.",
+
+    "closingAndOpening": "* closing and opening hours are indicated at UTC + 0",
+    "title": "Title",
+    "minVolume": "Min volume",
+    "maxVolume": "Max volume",
+    "volumePitch": "Volume pitch",
+    "maxLeverage": "Max leverage",
+    "numberOfContractsForOneLot": "Number of contracts for 1 lot",
+    "leaveARequest": "Leave a request",
+    "send": "Send"
 }   

@@ -33,7 +33,7 @@
     "standardLot": "標準手",
     "minLotSize": "最小 批量", 
     "maxLotSize": "最高 批量",
-    "stepOfChangingTheVolumeInLots": "批量更改音量的步驟",
+    "stepOfChangingTheVolumeInLots": "批量更改音量的步驟", 
     "maxShoulder": "最高 肩",
     "opening": "開場*",
     "closing": "閉幕*",
@@ -180,5 +180,15 @@
     "address": "23，Sturt Street，Melbourne，VIC 3008，Australia。",
 
     "pageNotFoundTitle": "第一波用户",
-    "pageNotFoundText": "信任经纪人团队的服务，并在创新的交易终端的基础上开设账户。"
+    "pageNotFoundText": "信任经纪人团队的服务，并在创新的交易终端的基础上开设账户。",
+
+    "closingAndOpening": "*關閉和開放時間以UTC + 0表示",
+    "title": "標題",
+    "minVolume": "最小音量",
+    "maxVolume": "最大音量",
+    "volumePitch": "音調",
+    "maxLeverage": "最大槓桿",
+    "numberOfContractsForOneLot": "1手合約數量",
+    "leaveARequest": "提出要求",
+    "send": "發送"
 }    
