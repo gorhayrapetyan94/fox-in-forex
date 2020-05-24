@@ -69,7 +69,7 @@
 .about_start_trading {
     min-width: 480px;
     height: 100px;
-    background: linear-gradient(69.86deg, #CF3E2E -44.46%, rgba(255, 255, 255, 0) 190.03%), #FE9432;
+    background-image: linear-gradient(to right, rgb(225, 111, 81) , rgb(247, 160, 99));
     border-radius: 50px;
     font-size: 40px;
     line-height: 53px;
@@ -267,7 +267,7 @@
 .open_demo {
     min-width: 400px;
     height: 80px;
-    background: linear-gradient(77.99deg, #F16238 -6.51%, rgba(255, 255, 255, 0) 151.07%), #FE9432;
+    background-image: linear-gradient(to right, rgb(225, 111, 81) , rgb(247, 160, 99));
     border-radius: 50px;
     font-size: 36px;
     line-height: 48px;

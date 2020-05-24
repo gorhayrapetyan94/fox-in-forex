@@ -74,7 +74,7 @@
 }
 
 .react-tabs__tab--selected {
-    background: linear-gradient(81.53deg, #F16238 -6.51%, rgba(255, 255, 255, 0) 151.07%), #FE9432 !important;
+    background-image: linear-gradient(to right, rgb(225, 111, 81) , rgb(247, 160, 99)) !important;
     border-radius: 50px !important;
     font-size: 36px;
     line-height: 48px;
