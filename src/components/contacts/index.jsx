@@ -149,8 +149,11 @@ function Contacts({ intl, lang }) {
             body: JSON.stringify(formData)
         };
         fetch(formUrl, requestOptions)
-            .then(response => response.json())
-            .then(data => console.log(data));
+            .then(response => {
+                if(response.status === 200) {
+                    setModalIsOpen(false);
+                }
+            })
     }
 
     return (
