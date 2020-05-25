@@ -190,5 +190,6 @@
     "maxLeverage": "Maximale Hebelwirkung",
     "numberOfContractsForOneLot": "Anzahl der Verträge für 1 Los",
     "leaveARequest": "Hinterlassen Sie eine Anfrage",
-    "send": "Senden"
+    "send": "Senden",
+    "currencyQuotes": "Währungskurse"
 }    

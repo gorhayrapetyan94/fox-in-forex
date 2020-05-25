@@ -190,5 +190,6 @@
     "maxLeverage": "Effet de levier maximum",
     "numberOfContractsForOneLot": "Nombre de contrats pour 1 lot",
     "leaveARequest": "Laisser une demande",
-    "send": "Envoyer"
+    "send": "Envoyer",
+    "currencyQuotes": "Devis Devises"
 }   

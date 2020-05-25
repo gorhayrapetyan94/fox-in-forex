@@ -190,5 +190,6 @@
     "maxLeverage": "Leva massima",
     "numberOfContractsForOneLot": "Numero di contratti per 1 lotto",
     "leaveARequest": "Lascia una richiesta",
-    "send": "Spedire"
+    "send": "Spedire",
+    "currencyQuotes": "Quotazioni di valuta"
 }   

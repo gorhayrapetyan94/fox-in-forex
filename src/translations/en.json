@@ -190,5 +190,6 @@
     "maxLeverage": "Max leverage",
     "numberOfContractsForOneLot": "Number of contracts for 1 lot",
     "leaveARequest": "Leave a request",
-    "send": "Send"
+    "send": "Send",
+    "currencyQuotes": "Currency Quotes"
 }   

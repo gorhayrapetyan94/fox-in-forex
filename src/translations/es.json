@@ -190,5 +190,6 @@
     "maxLeverage": "Apalancamiento máximo",
     "numberOfContractsForOneLot": "Número de contratos por 1 lote",
     "leaveARequest": "Deja una solicitud",
-    "send": "Enviar"
+    "send": "Enviar",
+    "currencyQuotes": "Cotizaciones de divisas"
 }   

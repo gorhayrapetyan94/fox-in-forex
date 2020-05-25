@@ -190,5 +190,6 @@
     "maxLeverage": "最大槓桿",
     "numberOfContractsForOneLot": "1手合約數量",
     "leaveARequest": "提出要求",
-    "send": "發送"
+    "send": "發送",
+    "currencyQuotes": "貨幣報價"
 }    

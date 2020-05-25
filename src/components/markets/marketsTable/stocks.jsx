@@ -10,7 +10,7 @@ function StocksTable() {
                         <th><FormattedMessage id='title' defaultMessage='title' /></th>
                         <th><FormattedMessage id="tool" defaultMessage="tool" /></th>
                         <th><FormattedMessage id="aCountry" defaultMessage="aCountry" /></th>
-                        <th>Currency Quotes</th>
+                        <th><FormattedMessage id='currencyQuotes' defaultMessage='currencyQuotes' /></th>
                         <th><FormattedMessage id="minPriceChange" defaultMessage="minPriceChange" /></th>
                         <th><FormattedMessage id="minVolume" defaultMessage="minVolume" /></th>
                         <th><FormattedMessage id="maxVolume" defaultMessage="maxVolume" /></th>
