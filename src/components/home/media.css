@@ -318,6 +318,7 @@
         margin-bottom: 24px;
     }
     .info_item_left_subtitle {
+        min-height: 96px;
         font-size: 18px;
         line-height: 24px;
         margin-bottom: 7px;
@@ -343,7 +344,7 @@
     .info_item_middle_title {
         font-size: 64px;
         line-height: 86px;
-        margin-bottom: 53px;
+        margin-bottom: 50px;
     }
     .info_item_middle .info_item_button {
         bottom: 40px;

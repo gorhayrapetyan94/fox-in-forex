@@ -690,10 +690,16 @@ function HomePage(props) {
                 <div className="benefits_left inline_block">
                     <div className="comp_block background_styles">
                         <div className="comp_block_inner background_styles" style={
-                            firstHover ? { backgroundImage: 'url(/images/comp_block1.png)' } :
-                            secondHover ? { backgroundImage: 'url(/images/comp_block2.png)' } :
-                            thirdHover ? { backgroundImage: 'url(/images/comp_block3.png)' } :
-                            { backgroundImage: 'url(/images/comp_block4.png)' }
+                            {backgroundImage: 'url(/images/comp_block1.png)', display: firstHover ? 'block' : 'none'}
+                            }></div>
+                        <div className="comp_block_inner background_styles" style={
+                            {backgroundImage: 'url(/images/comp_block2.png)', display: secondHover ? 'block' : 'none'}
+                        }></div>
+                        <div className="comp_block_inner background_styles" style={
+                            {backgroundImage: 'url(/images/comp_block3.png)', display: thirdHover ? 'block' : 'none'}
+                        }></div>
+                        <div className="comp_block_inner background_styles" style={
+                            {backgroundImage: 'url(/images/comp_block4.png)', display: fourthHover ? 'block' : 'none'}
                         }></div>
                     </div>
                 </div>

@@ -555,7 +555,7 @@
     font-size: 128px;
     line-height: 173px;
     color: #FE9432;
-    margin-bottom: 106px;
+    margin-bottom: 100px;
 }
 
 .info_item_right_title {
@@ -566,6 +566,7 @@
 }
 
 .info_item_left_subtitle {
+    min-height: 192px;
     font-size: 36px;
     line-height: 49px;
     margin-bottom: 14px;
