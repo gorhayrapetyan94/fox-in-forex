@@ -171,7 +171,16 @@ function HomePage(props) {
                 settings: {
                     className: "center",
                     centerMode: true,
-                    centerPadding: "5%  ",
+                    centerPadding: "5%",
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 360,
+                settings: {
+                    className: "center",
+                    centerMode: true,
+                    centerPadding: "5%",
                     slidesToShow: 1,
                 }
             }
