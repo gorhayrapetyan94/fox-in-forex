@@ -171,16 +171,25 @@ function HomePage(props) {
                 settings: {
                     className: "center",
                     centerMode: true,
-                    centerPadding: "5%",
+                    centerPadding: "40px",
                     slidesToShow: 1,
                 }
             },
             {
-                breakpoint: 360,
+                breakpoint: 380,
                 settings: {
                     className: "center",
                     centerMode: true,
-                    centerPadding: "5%",
+                    centerPadding: "30px",
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 370,
+                settings: {
+                    className: "center",
+                    centerMode: true,
+                    centerPadding: "25px",
                     slidesToShow: 1,
                 }
             }
